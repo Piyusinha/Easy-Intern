@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+body{
+
+	background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjk4-KXx9HeAhVDfX0KHfcEDiYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.businesstalentsolutions.com%2Fmaking-your-internship-more-than-a-typical-summer-job%2F&psig=AOvVaw31KMHT_QEnJxruujTWjLPt&ust=1542204890851315);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin: 0;
+	height: 100%;
+  
+}
+ .bgimg-1{
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url('ima.jpg');
+     min-height: 600px;
+ 
+}
+	
+
+.p{
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+/* First image (Logo. Full height) */
+/*.bgimg-1 {
+
+    background-image: url('ima.jpg');
+    background-color: rgba(0,0,0,0.5); 
+    min-height: 600px;
+}*/
+
+
+
+header .h{ 
+display: inline-flex;	
+	margin: 20px;
+
+ border-width: 20px;
+  text-transform: uppercase;	
+ font-family: 'Krona One', sans-serif;
+  color: #234233;
+  font-style: italic;
+  font-size: 2.1vw;
+
+  
+  
+ 
+
+
+}
+header ul{
+float: right;
+	 
+
+}
+
+header ul li{
+	padding-right: 20px;
+    color: white; 
+	display: inline-block;
+	font-family: 'Krona One', sans-serif;
+	list-style-type: none;
+	 font-size: 1.5vw;
+	 font-style: italic;
+
+
+}
+.select{
+	background-color:rgba(79, 171, 198,0.5);
+	padding: 30px 0px 24px 20px;
+
+}
+.about{
+	padding: 20px 200px 200px 200px;
+}
+
+h2{
+	text-align: center;
+	margin-top: 80px;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 2;
+
+
+}
+.ps{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	line-height: 50px;
+	font-weight: bold;
+
+}
+.f{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	line-height: 50px;
+	font-weight: bold;
+
+}
+ .imagehat {
+	opacity: 0.75;
+	margin: 80px;
+	
+	
+}
+
+.ps1{
+	
+	font-family: 'Dosis', sans-serif;
+	font-style: italic;
+	line-height: 50px;
+	font-weight: bold;
+	margin: 50px 40px 40px 40px;
+
+
+
+}
+.container img{
+	width: 450px;
+	height: 300px;
+	margin:10px;
+	transition: all 1s;
+	justify-content: center;
+}
+.container img:hover{
+	transform: scale(2.0);
+}
+}
+.container{
+	display: wrap;
+	flex-wrap: wrap;
+	margin: 100px;
+
+
+}
+.gal{
+	margin-top: 250px;
+	text-align: center;
+}
+
