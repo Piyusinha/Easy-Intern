@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	margin: 0;
+	background-image:url(221716.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: auto;s
+
+s
+}
+.loginbox{
+	border-style: ridge;
+	border-radius: 30px;
+	border-color:#4FB5C6; 
+	padding: 70px 30px;
+	width: 350px;
+	height:600px;
+	background:rgba(0,0,0,0.5);
+
+	color:white;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+#new{
+	height: 80px;
+	width: 80px;
+
+	position: absolute;
+	top:-30px;
+	left:40%;
+}
+
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	padding: 0px 0px 10px;
+
+}
+.loginbox p{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-weight: bold;
+
+}
+.loginbox input{
+	width:100%;
+}
+.loginbox input[type="text"],input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color:white;
+	font-family: Calibri;
+	font-size: 20px;
+	outline: none;
+	height: 35px;
+
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	border-radius: 20px;
+	background-color: #4FB5C6;
+	height: 10%;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.loginbox input[type="submit"]:hover{
+	background-color: white;
+    cursor: pointer;
+
+}
+.loginbox a{
+	
+	
+	text-decoration: none;
+	margin:20px;
+    font-size: 18px;
+    line-height: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #4FB5C6;
+}
+.loginbox a:hover{
+	color:black;
+}
+.loginas{
+	text-align: left;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.select{
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 20px;
+    
+
+
+}
+
+#select {
+    
+	margin-bottom: -20px;
+	transform: translate(60%,-175%);
+	
+}
+.register{
+	font-size: 40px;
+}
+/*.loginbox {
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}*/
